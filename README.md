@@ -5,8 +5,9 @@ Just the first version of a working page using flask
 
 ## Branches
 
-Branches will add features
-#-bootstrap
-#-Rest
-#-SQLAlchemy
-#-soOn
+__Branches will add features__
+
+* bootstrap
+* Rest
+* SQLAlchemy
+* soOn
