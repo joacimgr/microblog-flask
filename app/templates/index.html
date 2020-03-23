@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <left></left>
+    <div class="container">
+        <header style="max-width: max-content;">
+            <h1>Hi, {{ user.username }}!</h1>
+        </header>
+    </div>
+    <div class="container">
+        {% for post in posts %}
+        <div><p>{{ post.author.username}} says: <b>{{ post.body }}</b></p></div>
+        {% endfor %}
+    </div>
+{% endblock %}
